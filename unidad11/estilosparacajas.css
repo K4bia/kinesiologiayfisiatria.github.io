@@ -1,0 +1,708 @@
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+
+
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    src: url()
+}
+
+
+#contenedor {
+    width: 980px;
+    margin: auto;
+    background-image: url(images/10.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 110px;
+    background: -moz-linear-gradient(to right, #c0c0c0 20%, #000000 61%);
+    background: -webkit-linear-gradient(to right, #c0c0c0 20%, #000000 61%);
+    background: -o-linear-gradient(to right, #c0c0c0 20%, #000000 61%);
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+#cabecera img  {
+    width: 80px;
+    height: 78px;
+    float: left;
+    border-radius: 60px
+}
+#nombre {
+    width: 240px;
+    height: 30px;
+    float: left;
+    font-family: Georgia, Times, Cambria, Cochin;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+
+#botonera { 
+    width: 630px;
+    height: 100px;    
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.7em;     
+}
+    nav#botonera {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        align-items: center;
+}
+        nav#botonera li {
+            height: 3em;
+            text-align: center;
+            display: flex;    
+}
+            nav#botonera li a {
+                display: inline-block;
+                color: rgb(199, 196, 196);
+                font-weight: bold;
+                border: 2px solid silver;
+                border-radius: 40px;
+                width: 7.5rem;
+                height: 3.5em;
+                padding: 0.8em;
+                text-align: center;
+                text-decoration: none;
+                box-shadow: 0px 0px 10px #ddeec3;
+}
+            nav#botonera li a:hover {
+                background-color: #818152;
+                transition: 2s;
+}
+
+
+#presentacion {
+    height: 700px;
+    background:#a99d9d
+}
+#presentacion h1 {
+    width: 300px;
+    height: 80px;
+    background-color: #a99d9d;
+    float: left;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+#presentacion h2 {
+    width: 930px;
+    height: 120px;
+    background-color: #9099a2;
+    clear: both;    
+    margin-left: 25px;
+    margin-top: -10px;
+}
+#texto {
+    width: 930px;
+    height: 160px;
+    background-color: #d9d9d9;
+    margin-top: -10px;
+    margin-left: 25px;
+
+}    
+
+#exp1, #exp2, #exp3, #exp4 {
+    width: 210px;
+    height: 270px;      
+    display: inline-flex;
+    margin-left: 25px;
+    margin-top: 15px;
+   
+    
+    
+}
+#exp1 {
+    background-color: #c3b588;
+}
+#exp2 {
+    background-color: #bbab77;
+}
+#exp3 {
+    background-color: #aa9655;
+}
+#exp4 {
+    background-color: #887844;
+}
+
+#tratamientos {
+    height: 960px;
+    
+    background-position: center;
+    background-size: cover;
+    align-items: center;    
+}
+#paciente1, #paciente2, #paciente3 {
+    width: 300px;
+    height: 250px;
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+#paciente3 {
+    margin-top: 30px;
+}
+#paciente1 h3, #paciente2 h3, #paciente3 h3{
+
+    color: crimson;
+    font-size: 20px;
+    text-align: center;
+}
+h2.destacado2 {
+    color: crimson;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+#paciente2 a {
+    margin-top: 50px;
+    width: 20px;
+    height: 20px;
+}
+#paciente3 a img, #paciente2 a img  {
+    width: 30px;
+    height: 30px;
+    float: right;
+    background-size: cover;
+}
+#paciente1 p, #paciente2 p, #paciente3 p{
+
+    color: rgb(29, 25, 26);
+    font-size: 1em;
+    text-align: left;
+}
+#paciente3{
+    text-align: center;
+}
+   
+#tratamientorec1, #tratamientorec2, #tratamientorec3 {
+    width: 370px;
+    height: 250px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 60px;
+   
+}
+
+#tratamientorec1 img, #tratamientorec2 img, #tratamientorec3 img{
+    width: 370px;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+#servicios {
+    height: 900px;
+    background-position: center;
+    background-size: cover; 
+}
+#imagen1, #imagen2, #imagen3 {
+    width: 290px;
+    height: 270px;
+    margin: 15px;
+    border-radius: 10px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+#imagen1 img, #imagen2 img, #imagen3 img {
+    width: 290px;
+    height: 270px;
+    border-radius: 15px;
+    object-fit:cover;    
+}
+
+
+.titulodestacado {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+#texto1, #texto2, #texto3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 290px;
+    height: auto;
+    float: left;
+    margin: 15px;
+    
+}
+
+#servicios p {
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: justify;
+
+}
+#usuario {
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+#usuario h1{
+    height: 50px;
+    background-color: #aa9655;
+}
+#login{    
+    color: #9099a2;
+
+}
+#registro{
+    height: auto;
+}
+
+#ingreso{    
+    height: auto;
+}
+#reserva{
+    height: auto;
+}
+.tituloformulario{
+    text-align: center;
+}
+#comentario{
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: 500;
+    
+}
+#comentario span{
+    font-size: 2em;
+    color: #bebe52;
+}
+#nota{
+    border: #9099a2 solid 2px;
+}
+#informacionadic{
+    height: auto;
+}
+#informacionadic.tituloformulario2{
+    color: #eaeff5;
+}
+
+#turno{    
+    height: auto;
+}
+#infoadic2, #infoadic3{
+    height: auto;   
+    border-radius: 15px;
+    text-align: center;
+}
+#infoadic2 img{
+    border-radius: 15px;
+    
+}
+
+.btnprim{
+    background-color: #000000;
+    color: #c0c0c0;
+    border-bottom:none;
+    box-shadow: 0px 5px 10px #ddeec3;
+    
+}
+
+.btnprim:hover{
+    background-color: #818152;
+    transition: 2s;
+}
+
+
+footer {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px solid silver;
+    margin: auto;
+    width: 980px;
+    height: 80px;
+    background: -moz-linear-gradient(to left, #c0c0c0 20%, #000000 87%);
+    background: -webkit-linear-gradient(to left, #c0c0c0 20%, #000000 87%);
+    background: -o-linear-gradient(to left, #c0c0c0 20%, #000000 87%);
+
+}
+    ul#contacto{
+        margin: auto;
+        list-style: none;
+}
+        ul#contacto li {
+            display: inline;
+            height: 45px;
+            
+}
+            ul#contacto li a {
+                display: inline-block;
+                align-items: center;
+                justify-content: space-between;
+                padding: auto;                
+                border-radius: 100%;
+                text-decoration: none;
+                height: 45px;
+               
+}
+            ul#contacto li a:hover {
+                background-color: #6abdee;
+                transition: 2s;
+}
+                ul#contacto li a img {
+                    width: 50px;
+                    height: 45px;
+                    z-index: 1;
+} 
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+      
+    #contenedor, footer {
+        width: 580px;
+    }
+    
+    header {
+        height: 180px;
+        background: -moz-linear-gradient(to     bottom, #c0c0c0 5%, #000000 81%);
+        background: -webkit-linear-gradient(to bottom, #c0c0c0 5%, #000000 81%);
+        background: -o-linear-gradient(to bottom, #c0c0c0 5%, #000000 81%);
+        display: block;
+        text-align: center;
+        justify-content: space-between ;
+        
+    }
+    #imagencabecera{
+        width: 100px;
+        height: 80px;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #nombre {
+        width: 260px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+    }
+    
+    #botonera { 
+        width: 580px;
+        height: 160px;
+        font-size: 0.8em;
+     
+    }   
+        nav#botonera {
+            height: 100px;
+            display:flex;        
+    }
+            nav#botonera li {
+                height: 2em;
+                text-align: justify;
+                justify-content: center;
+                align-items: center; 
+                    
+    }
+                nav#botonera li a {
+                    width: 7rem;
+                    padding: 0.8em;
+                    font-size: 0.8em;                    
+    }
+
+    
+    #presentacion {
+        height: 800px;
+    }
+    #presentacion h1 {
+        height: 50px;
+        margin: 10px;
+    }
+    #presentacion h2 {
+        width: 550px;
+        height: 90px;
+        margin-left: 10px;
+    }
+    #texto {
+        width: 500px;
+        margin-left: 10px;
+        margin-top: 5px;    
+    }      
+    #exp1, #exp2, #exp3, #exp4 {
+        width: 170px;
+        height: 230px;
+        margin: 10px;
+    }
+    #exp1 {
+        margin-left: 10px;
+    }
+    #exp4 {
+        width: 560px;
+        height: 170px;
+    }
+    
+    #servicios {
+        height: 1300px;
+    }
+    #imagen1, #imagen2, #imagen3 {
+        width: 290px;
+        height: 270px;
+        margin-left: 10px;
+        position: absolute;
+    }
+    #imagen1 {
+        margin-top: 55px;
+    }
+    #imagen2 {
+        margin-top: 540px;
+    }
+    #imagen3 {
+        margin-top: 970px;
+    }
+    
+    #texto1, #texto2, #texto3 {
+        font-size: 14px;
+        width: 270px;
+        position: absolute;
+        margin-left: 300px;
+        padding: 5px;
+        
+    }
+    #texto1 {
+        margin-top: 15px;        
+    }
+    #texto2 {
+        margin-top: 500px;
+    }
+    #texto3 {
+        margin-top: 930px;
+    }     
+
+    #tratamientos {
+        height: 950px;
+        
+    }
+    #paciente1, #paciente2, #paciente3 {
+        width: 220px;
+        margin-left: 10px;
+        font-size: 14px;       
+    }
+    #paciente1 h3, #paciente2 h3, #paciente3 h3{  
+        font-size: 16px;
+        text-align: left;
+        margin-left: 40px;
+    }
+    
+    #paciente1 p, #paciente2 p, #paciente3 p{
+        font-size: 16px;
+    }
+    #tratamientorec1, #tratamientorec2, #tratamientorec3 {
+        width: 270px;
+    }
+    #tratamientorec1 img, #tratamientorec2 img, #tratamientorec3 img {
+        width: 270px;
+        border-radius: 10px;
+        float: left;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0px;
+        margin-left: 0px;
+        
+    }
+   
+    
+    
+}/* Fin responsive 600px a 1023px*/
+
+
+@media all and (max-width: 599px) {
+      
+    #contenedor, footer {
+        width: 100%;
+    }
+        
+    header {
+        width: 100%;
+        height: auto;
+        background: -moz-linear-gradient(to     bottom, #c0c0c0 5%, #000000 81%);
+        background: -webkit-linear-gradient(to bottom, #c0c0c0 5%, #000000 81%);
+        background: -o-linear-gradient(to bottom, #c0c0c0 5%, #000000 81%);
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    #imagencabecera{
+        width: 100px;
+        height: 100px;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #nombre {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 0.5em;
+        
+    }
+    
+    #botonera { 
+        height: auto;
+        width: 95%;
+        font-size: 0.8em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }   
+        nav#botonera {
+            width: 100%;
+            display:block;
+            float: left;
+            text-align: center;
+            justify-content: space-between;           
+    }
+            nav#botonera li {
+                height: 4em;
+                display: block;
+                text-align: center;
+                justify-content: space-between;
+                align-items: center; 
+                    
+    }
+                nav#botonera li a {
+                    font-weight: bold;
+                    border: 2px solid silver;
+                    width: 90%;
+                    height: 3.5em;
+                    padding: 0.5em;
+                    text-align: center;
+                    
+                    
+                    
+    }
+        
+    #presentacion {
+            height: auto;
+    }
+    #presentacion h1 {  
+        width: 65%;
+        margin: 10px;
+    }
+    #presentacion h2 {
+        width: 90%;
+        margin-left: 10px;
+    }
+    #texto {
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 5px;    
+    }        
+    #exp1, #exp2, #exp3, #exp4 {
+        justify-content: space-around;
+        width: 45%;
+        margin: 2%
+    }
+
+    #servicios {
+        height: 2100px;
+        margin: 0;
+    }
+    #imagen1, #imagen2, #imagen3 {
+            width: 95%;
+            
+            position: absolute;
+            box-sizing: border-box;
+        }
+    #imagen1 img, #imagen2 img, #imagen3 img {
+            width: 100%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }       
+        #imagen1 {
+            margin-top: 45px;
+        }
+        #imagen2 {
+            margin-top: 770px;
+        }
+        #imagen3 {  
+            margin-top: 1450px;
+        }
+        
+        #texto1, #texto2, #texto3 {
+            font-size: 14px;
+            width: 90%;
+            position: absolute;
+            margin-left: 10px;
+            
+            
+        }
+        #texto1 {
+            margin-top: 350px;        
+        }
+        #texto2 {
+            margin-top: 1070px;
+        }
+        #texto3 {
+            margin-top: 1750px;
+        }
+    
+    #tratamientos {
+        height: 2000px;
+        align-items: center;   
+    }
+    #paciente1, #paciente2, #paciente3 {
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 20px;   
+        
+    }
+
+    #tratamientorec1, #tratamientorec2, #tratamientorec3 {
+        width: 90%;
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+
+    
+    #tratamientorec1 img, #tratamientorec2 img, #tratamientorec3 img {
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+        
+
+footer{
+    background: -moz-linear-gradient(to bottom, #c0c0c0 15%, #000000 80%);
+    background: -webkit-linear-gradient(to bottom, #c0c0c0 15%, #000000 80%);
+    background: -o-linear-gradient(to bottom, #c0c0c0 15%, #000000 80%);
+}
+        
+
+}
